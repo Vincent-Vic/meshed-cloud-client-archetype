@@ -4,4 +4,6 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package $package.dto;
+package ${package}.dto;
+
+
