@@ -27,6 +27,9 @@ under the License.
     <requiredProperty key="gitignore">
       <defaultValue>.gitignore</defaultValue>
     </requiredProperty>
+    <requiredProperty key="domain">
+      <defaultValue>subdomain</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
