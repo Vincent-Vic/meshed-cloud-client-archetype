@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package ${package}.${domain}.;
+package ${package}.${domain}.query;
