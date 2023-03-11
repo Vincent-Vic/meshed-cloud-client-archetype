@@ -18,11 +18,11 @@
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.deploy.skip>true</maven.deploy.skip>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <cola-component-dto.version>4.3.1</cola-component-dto.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <meshed-cloud-constant-starter.version>1.0.0-SNAPSHOT</meshed-cloud-constant-starter.version>
+        <swagger-annotations.version>1.5.24</swagger-annotations.version>
     </properties>
 
     <dependencies>
@@ -48,6 +48,15 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${swagger-annotations.version}</version>
         </dependency>
     </dependencies>
 
